@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewports" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/contactform.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <title>Carlos Daccarett</title>
+    <style>
+        body {
+            /* set margin to 0 and overflow to hidden, to use the complete page */
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script src="resources/js/three.js"></script>
+
+    <header class="main-header" id="home">
+        <!-- Div which will hold the Output -->
+        <div class="bg-img-wrapper">
+            <div id="WebGL-output">
+            </div>
+        </div>
+
+        <a class="hamburger-shell">
+            <div class="hamb top" id="top"></div>
+            <div class="hamb middle" id="middle"></div>
+            <div class="hamb bottom" id="bottom"></div>
+
+            <ul class="menu" id="menu">
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About Me</li>
+                </a>
+                <a href="#work">
+                    <li>My Work</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </a>
+        <div class="hero-text-box">
+            <h4>Carlos Daccarett</h4>
+            <span class="element"></span>
+        </div>
+
+
+        <!--Scroll Down-->
+        <div class="arrow bounce">
+            <i class="fa fa-arrow-down fa-2x"></i>
+        </div>
+    </header>
+
+    <section class="section-about" id="about">
+        <!--
+        <div class="heading">
+            <h2>About</h2>
+        </div>
+-->
+        <div class="row about-row">
+            <div class="col-center span-7-of-8">
+
+                <div class="row test">
+                    <div class="row">
+                        <div class="col span-1-of-2">
+                            <div class="avatar">
+                                <img src="resources/img/profile.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2 about-box">
+                            <h4>About</h4>
+                            <p>I'm Carlos, an accomplished student and professional, motivated by the challenging nature of Computer Science. I specialize in building everything from personal portfolio sites to rich interactice web applications.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-2 about-box exp-box">
+                        <h4>Experience</h4>
+                        <ul>
+                            <li>Freelance <span>2016-Present</span></li>
+                            <li>IT Consultant <span>2016-Present</span></li>
+                            <li>Co-Founder Envision Fitwear <span>2014-2016</span></li>
+                        </ul>
+                        </div>
+
+                        <div class="col span-1-of-2 about-box">
+                            <h4>Skills</h4>
+                            <p>JavaScript, Node.js, Express.js, Git, Html5, CSS, C++, mySQL, Responsive design, Photoshop, ...</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-2 about-box">
+                            <h4>Education</h4>
+                            <p><strong>California State University, Fresno</strong></p>
+                            <p>B.S. Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section-work" id="work">
+        <!--
+        <div class="heading">
+            <h2>My Work</h2>
+        </div>
+-->
+        <div style="position: relative; overflow: hidden;" class="work-box">
+            <div style="height: 100%;" class="row">
+                <div class="col-half project-left">
+                    <div class="project__number" style="opacity: 1; transform: translate(0%, -50%) matrix(1, 0, 0, 1, 0, 0);">G</div>
+                    <div class="project-context-text">
+                        <h4>Glucose-Guarding</h4>
+                        <p class="project-title">&mdash; Fresno State Hackathon 2017</p>
+                        <p>This web application's purpose is to provide a functional calculation that will yield exact amounts of the fast acting sugar source (skittles) to bring your levels back to normal. It has the option to automatically pull your diabetic profiles, and current blood glucose level from the NightScout API. Also has a geolocation text message feature if blood sugar reaches a dangerous level.</p>
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">JS</div>
+                        <div class="tag">Node.js</div>
+                        <div class="tag">Express.js</div>
+                        <div class="tag">Mustache.js</div>
+                    </div>
+                </div>
+                <div class="col-half project-gg">
+                    <div class="project-context">
+                        <img src="resources/img/glucoseguardian.png" style="transform: translate(-50%, -50%) matrix(0.9, 0, 0, 0.9, 0, 0);" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div style="position: relative; overflow: hidden;" class="work-box">
+            <div style="height: 100%;" class="row flex">
+                <div class="col-half project-cc b">
+                    <div class="project-context carb-candy">
+                        <img src="resources/img/carbcandy.png" style="transform: translate(-50%, -50%) matrix(0.9, 0, 0, 0.9, 0, 0);" alt="">
+                    </div>
+                </div>
+                <div class="col-half project-left a">
+                    <div class="project__number_right" style="opacity: 1; transform: translate(0%, -50%) matrix(1, 0, 0, 1, 0, 0);">C</div>
+                    <div class="project-context-text">
+                        <h4>Carb-Candy</h4>
+                        <p class="project-title">&mdash; Personal Project 2017</p>
+                        <p>Carb Candy's purpose is to make it easier for a diabetic to handle low blood sugar by providing the precise amount of candy the user needs to each to reach a optimal blood  glucose level.</p>
+                        <div class="tag">Swift</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div style="position: relative; overflow: hidden;" class="work-box">
+            <div style="height: 100%;" class="row">
+                <div class="col-half project-left">
+                    <div class="project__number" style="opacity: 1; transform: translate(0%, -50%) matrix(1, 0, 0, 1, 0, 0);">D</div>
+                    <div class="project-context-text">
+                        <h4>DCS inc. Honduras</h4>
+                        <p class="project-title">&mdash; Freelance Project 2017</p>
+                        <p>DCS inc. Honduras is designed to engage and simplify the user's nagivation by using a single page website approach.</p>
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">JS</div>
+                    </div>
+                </div>
+                <div class="col-half project-dcs">
+                    <div class="project-context dcs">
+                        <img src="resources/img/dcs.png" style="transform: translate(-50%, -50%) matrix(0.9, 0, 0, 0.9, 0, 0);" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="position: relative; overflow: hidden;" class="work-box">
+            <div style="height: 100%;" class="row flex">
+                <div class="col-half project-bns b">
+                    <div class="project-context carb-candy">
+                        <img src="resources/img/FSBNS.png" style="transform: translate(-50%, -50%) matrix(0.9, 0, 0, 0.9, 0, 0);" alt="">
+                    </div>
+                </div>
+                <div class="col-half project-left a">
+                    <div class="project__number_right" style="opacity: 1; transform: translate(0%, -50%) matrix(1, 0, 0, 1, 0, 0);">F</div>
+                    <div class="project-context-text">
+                        <h4>Fresno State Buy N' Sell</h4>
+                        <p class="project-title">&mdash; SW Engineering Project 2017</p>
+                        <p>FS Buy N' Sell's purpose is to provide student with a easy to use and secure webpage to make transaction with peers. This project was built by a small four person team using an agile approach.</p>
+                        <div class="tag">CSS</div>
+                        <div class="tag">HTML</div>
+                        <div class="tag">JS</div>
+                        <div class="tag">PHP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="row">
+            <div class="col span-2-of-2">
+                <form action="" class="form">
+                    <p class="field required half">
+                        <label class="label required" for="name">Name</label>
+                        <input class="text-input" id="name" name="name" required type="text">
+                    </p>
+                    <p class="field required half">
+                        <label class="label" for="email">E-mail</label>
+                        <input class="text-input" id="email" name="email" required type="email">
+                    </p>
+                    <p class="field">
+                        <label class="label" for="message">Message</label>
+                        <textarea class="textarea" cols="50" id="message" name="message" required rows="4"></textarea>
+                    </p>
+                    <p class="field">
+                        <input class="button" type="submit" value="Send message">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="vendors/js/typed.js"></script>
+    <script src="resources/js/threejsobject.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="resources/js/contact.js"></script>
+</body>
+
+</html>
