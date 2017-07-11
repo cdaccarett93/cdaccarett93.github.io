@@ -16,19 +16,19 @@
   box-sizing: border-box;
   display: block;
   padding-left: 0;
-  border-bottom-color: rgba(255, 255, 255, 0.3);
+  border-bottom-color: rgba(0, 0, 0, 0.3);
   background: transparent;
   outline: none;
-  color: #F3F3F3;
+  color: black;
 }
 .form .text-input:placeholder, .form .textarea:placeholder {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 .form .text-input:-webkit-autofill, .form .textarea:-webkit-autofill {
-  box-shadow: 0 0 0px 1000px white inset;
-  border-top-color: white;
-  border-left-color: white;
-  border-right-color: white;
+  box-shadow: 0 0 0px 1000px black inset;
+  border-top-color: black;
+  border-left-color: black;
+  border-right-color: black;
 }
 .form .error.text-input, .form .error.textarea, .error .form .text-input, .form .error .text-input, .error .form .textarea, .form .error .textarea {
   border-color: transparent transparent red transparent;
@@ -47,7 +47,7 @@
 .form .label {
   top: 0;
   left: 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
@@ -57,11 +57,11 @@
   font-weight: 600;
   text-transform: uppercase;
   padding: 0;
-  color: rgba(255, 255, 255, 0.7);
-  background: black;;
+  color: rgba(0, 0, 0, 0.7);
+  background: transparent;
 }
 .focus .form .label, .form .focus .label {
-  color: #F3F3F3;
+  color: black;
 }
 
 .form.has-floated-label .field:after {
@@ -70,7 +70,7 @@
   bottom: 0;
   left: 0;
   width: 0%;
-  border-bottom: 1px solid #F3F3F3;
+  border-bottom: 1px solid black;
   -webkit-transition: width 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: width 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
