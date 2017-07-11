@@ -80,7 +80,7 @@
 	}
     
     .col-center{
-        height: 100vh;
+        height: 80vh;
     }
     
     .project__number {
@@ -110,6 +110,10 @@
     .hero-text-box span {
         font-size: 3em;
 }
+    
+    .test {
+    padding: 10%;
+    }
     
     .hamburger-shell {
         height: 80px;
@@ -152,6 +156,9 @@
     .arrow {
         left: 45%;
     }
+    .about-row {
+    padding: 17% 5% 5% 5%;
+    }
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -189,7 +196,7 @@
 	}
     
     .col-center{
-        height: 100vh;
+        height: 80vh;
     }
     
     .project__number {
@@ -253,6 +260,10 @@
     .rotate-back {
     top: 30px;
 }
+    
+    .about-row {
+    padding: 17% 5% 5% 5%;
+    }
 }
 
 
@@ -267,7 +278,7 @@
 	}
     
     .col-center{
-        height: 100vh;
+        height: 80vh;
     }
     
     .project__number {
@@ -289,4 +300,8 @@
     .about-box {
     margin-top: 10%;
 }
+    
+    .about-row {
+    padding: 17% 5% 5% 5%;
+    }
 }
