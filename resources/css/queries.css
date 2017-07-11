@@ -144,6 +144,14 @@
     .rotate-back {
     top: 30px;
 }
+    
+    .arrow i {
+        font-size: 5em;
+    }
+    
+    .arrow {
+        left: 45%;
+    }
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
