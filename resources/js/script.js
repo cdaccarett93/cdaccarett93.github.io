@@ -1,6 +1,6 @@
 $(document).ready(function () {
         Typed.new('.element', {
-        strings: ["Computer Science", "Developer", "Innovator", "Creator"],
+        strings: ["Computer Science", "Developer"],
         typeSpeed: 150,
         loop: null
       });
