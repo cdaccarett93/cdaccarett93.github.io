@@ -44,7 +44,7 @@
 <body>
     <script src="resources/js/three.js"></script>
 
-    <header class="main-header" id="home">
+    <header class="main-header section-scroll" id="home">
         <!-- Div which will hold the Output -->
         <!--        <div class="bg-img-wrapper">-->
         <div id="WebGL-output">
@@ -78,12 +78,12 @@
 
 
         <!--Scroll Down-->
-        <div class="arrow bounce">
-            <i class="fa fa-arrow-down fa-2x"></i>
+        <div class="mouse">
+            <div class="mouse-icon"><div class="wheel"></div></div>
         </div>
     </header>
 
-    <section class="section-about" id="about">
+    <section class="section-about section-scroll" id="about">
         <!--
         <div class="heading">
             <h2>About</h2>
@@ -92,7 +92,8 @@
         <div class="row about-row">
             <div class="col-center span-7-of-8">
 
-                <div class="row test">
+                <div style="display: table;" class="row test">
+                   <div style="display: table-row;">
                     <div class="row">
                         <div class="col span-1-of-2">
                             <div class="avatar">
@@ -126,6 +127,7 @@
                             <p>B.S. Computer Science</p>
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,7 +141,7 @@
             <h2>My Work</h2>
         </div>
 -->
-        <div style="position: relative; overflow: hidden;" class="work-box">
+        <div style="position: relative; overflow: hidden;" class="work-box section-scroll">
             <div style="height: 100%;" class="row">
                 <div class="col-half project-left">
                     <div class="project__number" style="opacity: 1; transform: translate(0%, -50%) matrix(1, 0, 0, 1, 0, 0);">G</div>
@@ -165,7 +167,7 @@
 
 
 
-        <div style="position: relative; overflow: hidden;" class="work-box">
+        <div style="position: relative; overflow: hidden;" class="work-box section-scroll">
             <div style="height: 100%;" class="row flex">
                 <div class="col-half project-bg b">
                     <div class="project-context carb-candy">
@@ -186,7 +188,7 @@
 
 
 
-        <div style="position: relative; overflow: hidden;" class="work-box">
+        <div style="position: relative; overflow: hidden;" class="work-box section-scroll">
             <div style="height: 100%;" class="row">
                 <div class="col-half project-left">
                     <div class="project__number" style="opacity: 1; transform: translate(0%, -50%) matrix(1, 0, 0, 1, 0, 0);">D</div>
@@ -208,7 +210,7 @@
         </div>
 
 
-        <div style="position: relative; overflow: hidden;" class="work-box">
+        <div style="position: relative; overflow: hidden;" class="work-box section-scroll">
             <div style="height: 100%;" class="row flex">
                 <div class="col-half project-bg b">
                     <div class="project-context carb-candy">
@@ -231,7 +233,7 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact section-scroll" id="contact">
 
         <div class="project-half">
             <div class="project__number_contact" style="opacity: 1; transform: translate(0%, -50%) matrix(1, 0, 0, 1, 0, 0);">C</div>
@@ -269,6 +271,7 @@
     <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="vendors/js/typed.js"></script>
+    <script type="text/javascript" src="vendors/js/jquery.scrollify.js"></script>
     <script src="resources/js/threejsobject.js"></script>
     <script src="resources/js/script.js"></script>
     <script src="resources/js/contact.js"></script>

@@ -1,4 +1,11 @@
 $(document).ready(function () {
+        $(function() {
+          $.scrollify({
+            section : ".section-scroll",
+          });
+        });
+    
+    
         Typed.new('.element', {
         strings: ["Computer Science", "Developer"],
         typeSpeed: 150,

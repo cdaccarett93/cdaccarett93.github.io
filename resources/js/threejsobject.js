@@ -37,7 +37,7 @@
         var cube = new THREE.Mesh(geometry, material);
         
         scene.add(cube);
-        cube.position.y = -0.8;
+        cube.position.y = -0.2;
 
         camera.position.z = 5;
 
