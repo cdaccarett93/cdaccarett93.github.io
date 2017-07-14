@@ -590,7 +590,7 @@ h6 {
     background: linear-gradient(to right, #556270, #4ECDC4);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
-    padding: 0% 5% 5% 5%;
+    padding: 1% 5% 5% 5%;
 }
 
 .col-half {
