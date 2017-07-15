@@ -136,29 +136,23 @@
     }
     
     .menu li {
-    font-size: 150%;
+    font-size: 3em;
+    }
+    
+    .menu a li {
+        margin-bottom: 40px;
     }
     
     .menu {
-        top: 50px;
-        left: calc(100% - 320px);
-        width: 210px;
+    top: 70px;
+    left: 53%;
+    width: 35%;
     }
     
     .rotate-back {
     top: 30px;
 }
     
-    .arrow i {
-        font-size: 5em;
-    }
-    
-    .arrow {
-        left: 45%;
-    }
-    .about-row {
-    padding: 17% 5% 5% 5%;
-    }
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -248,22 +242,18 @@
     }
     
     .menu li {
-    font-size: 150%;
+    font-size: 3em;
     }
     
     .menu {
-        top: 50px;
-        left: calc(100% - 320px);
-        width: 210px;
+    top: 70px;
+    left: 53%;
+    width: 35%;
     }
     
     .rotate-back {
     top: 30px;
 }
-    
-    .about-row {
-    padding: 17% 5% 5% 5%;
-    }
 }
 
 
@@ -301,7 +291,4 @@
     margin-top: 10%;
 }
     
-    .about-row {
-    padding: 1% 5% 5% 5%;
-    }
 }

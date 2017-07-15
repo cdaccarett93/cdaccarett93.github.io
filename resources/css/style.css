@@ -315,6 +315,8 @@ h3 {
 }
 
 .menu a li {
+    font-family: "Dosis", serif;
+    font-weight: 300;
     text-decoration: none!important;
     padding-bottom: 10px;
     margin-bottom: 12px;
@@ -366,19 +368,6 @@ h3 {
 
 .bottom {
     -webkit-animation-delay: 400ms;
-}
-
-.menu-name {
-    /*    font-family: Verdana;*/
-    font-weight: 900;
-    color: #00587A;
-    font-size: 19.5px;
-    text-decoration: none;
-    position: absolute;
-    top: 56px;
-    left: -1px;
-    -webkit-transition: all 350ms;
-    transition: all 350ms;
 }
 
 .bump {
