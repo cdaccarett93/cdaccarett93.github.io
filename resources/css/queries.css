@@ -115,6 +115,10 @@
     padding: 10%;
     }
     
+    .about-row {
+    padding: 20% 5% 5% 5%;
+    }
+    
     .hamburger-shell {
         height: 80px;
         width: 85px;
@@ -221,6 +225,10 @@
         font-size: 3em;
 }
     
+    .about-row {
+    padding: 20% 5% 5% 5%;
+}
+    
     .hamburger-shell {
         height: 80px;
         width: 85px;
@@ -289,6 +297,10 @@
 }
     .about-box {
     margin-top: 10%;
+}
+    
+    .about-row {
+    padding: 20% 5% 5% 5%;
 }
     
 }
