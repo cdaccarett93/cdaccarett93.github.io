@@ -537,6 +537,8 @@ h3 {
     width: 100vw;
 /*    background: #F3F3F3;*/
     background: url("../img/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
 /*    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));*/
@@ -593,9 +595,6 @@ h6 {
 
 .section-about {
     height: 100vh;
-/*    background: #4ECDC4;*/
-/*    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));*/
-/*    background: linear-gradient(to right, #556270, #4ECDC4);*/
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(right, #000000, #434343);
     background: -o-linear-gradient(right, #000000, #434343);
