@@ -550,7 +550,7 @@ canvas {
 @font-face {
     font-family: Plantin Light;
     src: url(../../vendors/fonts/Plantin-Light.otf);
-    src: url(../../vendors/fonts/Plantin-Light.otf?#iefix)format("embedded-opentype"), url(../fonts/plantin-light/plantin-light.ttf)format("truetype");
+    src: url(../../vendors/fonts/Plantin-Light.otf?#iefix)format("embedded-opentype");
     font-weight: 400;
     font-style: normal;
 }
