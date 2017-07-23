@@ -538,6 +538,7 @@ h3 {
 /*    background: #F3F3F3;*/
     background: url("../img/bg.jpeg");
     background-size: cover;
+    background-position: top center;
     background-repeat: no-repeat;
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
