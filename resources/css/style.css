@@ -535,7 +535,8 @@ h3 {
 .main-header {
     height: 100vh;
     width: 100vw;
-    background: #F3F3F3;
+/*    background: #F3F3F3;*/
+    background: url("../img/bg.jpeg");
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
 /*    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));*/
@@ -592,9 +593,13 @@ h6 {
 
 .section-about {
     height: 100vh;
-    background: #4ECDC4;
-    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));
-    background: linear-gradient(to right, #556270, #4ECDC4);
+/*    background: #4ECDC4;*/
+/*    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));*/
+/*    background: linear-gradient(to right, #556270, #4ECDC4);*/
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #000000, #434343);
+    background: -o-linear-gradient(right, #000000, #434343);
+    background: linear-gradient(to left, #000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .about-row {
@@ -753,12 +758,10 @@ h6 {
 }
 
 .project-bg {
-    background: #4ECDC4;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));
-    background: linear-gradient(to right, #556270, #4ECDC4);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #000000, #434343);
+    background: -o-linear-gradient(right, #000000, #434343);
+    background: linear-gradient(to left, #000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .dcs img {

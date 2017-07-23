@@ -27,7 +27,7 @@
 			scene.add( lights[ 2 ] );        
         
 //        var geometry = new THREE.BoxGeometry(1, 1, 1);
-        var geometry = new THREE.DodecahedronGeometry(2,0);
+        var geometry = new THREE.DodecahedronGeometry(1.5,0);
         var material = new THREE.MeshPhongMaterial({
             color: 0x57575A,
             emissive: 0x151516,
@@ -37,7 +37,7 @@
         var cube = new THREE.Mesh(geometry, material);
         
         scene.add(cube);
-        cube.position.y = -0.2;
+        cube.position.y = 0.5;
 
         camera.position.z = 5;
 
