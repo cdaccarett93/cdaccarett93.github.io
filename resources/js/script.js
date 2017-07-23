@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    
+        $('#my-form').captcha();
+    
         $(function() {
           $.scrollify({
             section : ".section-scroll",

@@ -163,3 +163,20 @@
 .form .textarea {
     max-width: 100%;
 }
+
+
+input[type="submit"] {
+    cursor: pointer;
+    float: right;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+    transition: all 100ms linear;
+}
+
+input[type="submit"]:disabled {
+    color: #999;
+    background-color: #bdc3c7;
+    background: #bdc3c7;
+}

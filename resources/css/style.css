@@ -858,3 +858,9 @@ h6 {
     display: block;
     opacity: .1;
 }
+
+
+#captchaInput {
+    width: 2.5em;
+    margin-left: .5em;
+}
