@@ -448,7 +448,7 @@ h3 {
 /* ---------------------------------------------- */
 
 .mouse-icon {
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 16px;
     height: 40px;
     width: 24px;
@@ -481,7 +481,7 @@ h3 {
 .mouse-icon .wheel {
     position: relative;
     border-radius: 10px;
-    background: #000;
+    background: #fff;
     width: 2px;
     height: 6px;
     top: 4px;
