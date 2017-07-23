@@ -173,6 +173,10 @@ h3 {
 }
 
 
+#WebGL-output {
+    position: absolute;
+}
+
 /*------------------------------------------*/
 
 
@@ -531,11 +535,11 @@ h3 {
 .main-header {
     height: 100vh;
     width: 100vw;
-    background: #4ECDC4;
+    background: #F3F3F3;
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));
-    background: linear-gradient(to right, #556270, #4ECDC4);
+/*    background: -webkit-gradient(linear, left top, right top, from(#556270), to(#4ECDC4));*/
+/*    background: linear-gradient(to right, #556270, #4ECDC4);*/
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -594,7 +598,7 @@ h6 {
 }
 
 .about-row {
-    padding: 1% 5% 5% 5%;
+    padding: 3% 5% 5% 5%;
 }
 
 .col-half {
@@ -745,39 +749,7 @@ h6 {
 }
 
 .project-left {
-    background-color: #fff;
-}
-
-.project-gg {
-    background: #16222A;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(135deg, #3da4db 0%, #2c539e 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.project-cc {
-    background: #1e3c72;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.project-dcs {
-    background: #000428;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(135deg, #004e92 0%, #000428 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.project-bns {
-    background: #141E30;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(135deg, #243B55 0%, #141E30 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #F3F3F3;
 }
 
 .project-bg {
