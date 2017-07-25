@@ -1,21 +1,21 @@
 $(document).ready(function () {
-    
-        $('#my-form').captcha();
-    
-        $(function() {
-          $.scrollify({
-            section : ".section-scroll",
-          });
+
+    $('#my-form').captcha();
+
+    $(function () {
+        $.scrollify({
+            section: ".section-scroll",
         });
-    
-    
-        Typed.new('.element', {
+    });
+
+
+    Typed.new('.element', {
         strings: ["Computer Science", "Developer"],
         typeSpeed: 150,
         loop: null
-      });
-    
-    
+    });
+
+
     /* Navigation */
     // Select all links with hashes
     $('a[href*="#"]')
@@ -52,18 +52,18 @@ $(document).ready(function () {
                 }
             }
         });
-    
-        $('#mySidenav a').on("click", function(){
-            document.getElementById("mySidenav").style.width = "0";
-        });
-    
-        $('#closenav').on("click", function(){
-           document.getElementById("mySidenav").style.width = "0";
-        });
-    
-        $('#menu').on("click", function(){
-            document.getElementById("mySidenav").style.width = "250px";
-        });
+
+    $('#mySidenav a').on("click", function () {
+        document.getElementById("mySidenav").style.width = "0";
+    });
+
+    $('#closenav').on("click", function () {
+        document.getElementById("mySidenav").style.width = "0";
+    });
+
+    $('#menu').on("click", function () {
+        document.getElementById("mySidenav").style.width = "250px";
+    });
 
 });
 
@@ -71,11 +71,20 @@ var top1 = $('#carbcandy').offset().top;
 var top2 = $('#fsbuynsell').offset().top;
 var top3 = $('#contact').offset().top;
 
-$(document).scroll(function() {
-  var scrollPos = $(document).scrollTop();
-    if (scrollPos === top1 || scrollPos === top2 || scrollPos >= top3) {
-    $('#menu').css('color', '#555');
-  } else {
-    $('#menu').css('color', '#f1f1f1');
-  }
+$(document).scroll(function () {
+    var scrollPos = $(document).scrollTop();
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        var top4 = $('#about').offset().top;
+        if (scrollPos === top4) {
+            $('#menu').css('color', '#f1f1f1');
+        } else {
+            $('#menu').css('color', '#555');
+        }
+    } else {
+        if (scrollPos === top1 || scrollPos === top2 || scrollPos >= top3) {
+            $('#menu').css('color', '#555');
+        } else {
+            $('#menu').css('color', '#f1f1f1');
+        }
+    }
 });

@@ -1,5 +1,5 @@
 /*------------------------------------------*/
-/* BASIC SETUP */
+             /* BASIC SETUP */
 /*------------------------------------------*/
 
 * {
@@ -12,7 +12,6 @@
 html,
 body {
     background-color: #fff;
-    /*    background-color:#171616;*/
     color: #555;
     font-weight: 300;
     font-size: 16px;
@@ -72,12 +71,9 @@ h6 {
     font-style: normal;
 }
 
+
 /*------------------------------------------*/
-
-
-/* REUSABLE COMPONENTS */
-
-
+        /* REUSABLE COMPONENTS */
 /*------------------------------------------*/
 
 .row {
@@ -90,11 +86,7 @@ h6 {
 
 
 /*------------------------------------------*/
-
-
-/* HEADINGS */
-
-
+               /* HEADINGS */
 /*------------------------------------------*/
 
 h1,
@@ -148,11 +140,7 @@ h3 {
 
 
 /*------------------------------------------*/
-
-
-/* HEADER */
-
-
+                 /* HEADER */
 /*------------------------------------------*/
 
 .heading {
@@ -184,7 +172,6 @@ h3 {
     font-size: 1.5em;
 }
 
-
 #WebGL-output {
     position: absolute;
 }
@@ -198,12 +185,9 @@ h3 {
     background-repeat: no-repeat;
 }
 
+
 /*------------------------------------------*/
-
-
-/* NAV */
-
-
+                  /* NAV */
 /*------------------------------------------*/
 
 .sidenav {
@@ -228,7 +212,8 @@ h3 {
     transition: 0.5s;
 }
 
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover,
+.offcanvas a:focus {
     color: #f1f1f1;
 }
 
@@ -254,14 +239,8 @@ h3 {
 }
 
 
-
-
 /*------------------------------------------*/
-
-
-/* MY WORK */
-
-
+                /* MY WORK */
 /*------------------------------------------*/
 
 .project-context {
@@ -354,10 +333,13 @@ h3 {
 }
 
 .project-bg {
-    background: #000000;  /* fallback for old browsers */
+    background: #000000;
+    /* fallback for old browsers */
     background: -webkit-linear-gradient(right, #000000, #434343);
     background: -o-linear-gradient(right, #000000, #434343);
-    background: linear-gradient(to left, #000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #000000, #434343);
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .dcs img {
@@ -448,12 +430,9 @@ h3 {
 
 
 /*------------------------------------------*/
-
-
-/* ABOUT */
-
-
+                /* ABOUT */
 /*------------------------------------------*/
+
 .col-center {
     height: 90vh;
     display: block;
@@ -464,10 +443,13 @@ h3 {
 
 .section-about {
     height: 100vh;
-    background: #000000;  /* fallback for old browsers */
+    background: #000000;
+    /* fallback for old browsers */
     background: -webkit-linear-gradient(right, #000000, #434343);
     background: -o-linear-gradient(right, #000000, #434343);
-    background: linear-gradient(to left, #000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #000000, #434343);
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .about-row {
@@ -546,12 +528,9 @@ h3 {
 
 
 /* -----------------------------------------*/
-
-
-/* FOOTER/Contact ME */
-
-
+         /* FOOTER/Contact ME */
 /* -----------------------------------------*/
+
 #captchaInput {
     width: 2.5em;
     margin-left: .5em;
@@ -559,12 +538,13 @@ h3 {
 
 
 /*------------------------------------------*/
-/* Animations */
+              /* Animations */
 /*------------------------------------------*/
 
-/* ---------------------------------------------- /*
- * Mouse animate icon
-/* ---------------------------------------------- */
+
+/* ------------------------- */
+   /* Mouse animate icon */
+/* ------------------------- */
 
 .mouse-icon {
     border: 2px solid #fff;
