@@ -15,21 +15,7 @@ $(document).ready(function () {
         loop: null
       });
     
-    $('.hamburger-shell').click(function(){
-		$('#menu').slideToggle(300);
-		$('.top').toggleClass('rotate');
-		$('.middle').toggleClass('rotate-back');
-        $('.bottom').toggleClass('bottom-active');
-		$('.menu-name').toggleClass('bump');
-		$('.bg-cover').toggleClass('reveal');
-	});
-	$('.bg-cover').click(function(){
-		$('#menu').slideToggle(300);
-		$('.top').toggleClass('rotate');
-		$('.middle').toggleClass('rotate-back');
-		$('.menu-name').toggleClass('bump');
-		$('.bg-cover').toggleClass('reveal');
-	});
+    
     /* Navigation */
     // Select all links with hashes
     $('a[href*="#"]')
@@ -66,8 +52,30 @@ $(document).ready(function () {
                 }
             }
         });
+    
+        $('#mySidenav a').on("click", function(){
+            document.getElementById("mySidenav").style.width = "0";
+        });
+    
+        $('#closenav').on("click", function(){
+           document.getElementById("mySidenav").style.width = "0";
+        });
+    
+        $('#menu').on("click", function(){
+            document.getElementById("mySidenav").style.width = "250px";
+        });
 
 });
 
+var top1 = $('#carbcandy').offset().top;
+var top2 = $('#fsbuynsell').offset().top;
+var top3 = $('#contact').offset().top;
 
-
+$(document).scroll(function() {
+  var scrollPos = $(document).scrollTop();
+    if (scrollPos === top1 || scrollPos === top2 || scrollPos >= top3) {
+    $('#menu').css('color', '#555');
+  } else {
+    $('#menu').css('color', '#f1f1f1');
+  }
+});
