@@ -36,6 +36,15 @@
         font-size: 7em;
         color: #555;
     }
+    .sidenav a {
+        padding: 35px 8px 8px 32px;
+        font-size: 50px;
+    }
+    .sidenav .closebtn {
+        font-size: 100px;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -109,6 +118,15 @@
         font-size: 7em;
         color: #555;
     }
+    .sidenav a {
+        padding: 35px 8px 8px 32px;
+        font-size: 50px;
+    }
+    .sidenav .closebtn {
+        font-size: 100px;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -179,6 +197,15 @@
         font-size: 7em;
         color: #555;
     }
+    .sidenav a {
+        padding: 35px 8px 8px 32px;
+        font-size: 50px;
+    }
+    .sidenav .closebtn {
+        font-size: 100px;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
 
 
@@ -222,5 +249,14 @@
     .menu {
         font-size: 7em;
         color: #555;
+    }
+    .sidenav a {
+        padding: 35px 8px 8px 32px;
+        font-size: 50px;
+    }
+    .sidenav .closebtn {
+        font-size: 100px;
+        margin-top: 0;
+        padding-top: 0;
     }
 }
