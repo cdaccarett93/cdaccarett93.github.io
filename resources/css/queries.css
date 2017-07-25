@@ -282,6 +282,68 @@
     }
 }
 
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .menu {
+        font-size: 4em;
+    }
+    .hero-text-box {
+        top: 11%;
+    }
+    .col-half {
+        margin: 0;
+        width: 50%;
+        height: 100%;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+    .b {
+        order: 1;
+    }
+    .a {
+        order: 2;
+    }
+    p,
+    li {
+        font-size: 1em;
+    }
+    .project__number_right {
+        left: 50%;
+        top: 43%;
+    }
+    #fsbuynsell .project__number_right,
+    #fsbuynsell .project__number_right {
+        right: 57%;
+        top: 47%;
+    }
+    .project__number {
+        top: 39%;
+    }
+    .about-row {
+    padding: 3% 5% 5% 5%;
+}
+    .about-box {
+    margin-top: 2%;
+}
+    .about-box h4::before {
+    bottom: -16px;
+}
+    .span-1-of-2 {
+    width: 49.2%;
+}
+    h4 {
+    font-size: 1.5em;
+}
+    .project__number_contactb {
+        top: 4%
+    }
+    .project__number_contact {
+    top: 100%;
+    }
+    
+}
+
 
 /* Small phones: from 0 to 480px */
 
