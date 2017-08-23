@@ -67,6 +67,7 @@ $(document).ready(function () {
 
 });
 
+var top0 = $('#pwaTodolist').offset().top;
 var top1 = $('#carbcandy').offset().top;
 var top2 = $('#fsbuynsell').offset().top;
 var top3 = $('#contact').offset().top;
@@ -81,7 +82,7 @@ $(document).scroll(function () {
             $('#menu').css('color', '#555');
         }
     } else {
-        if (scrollPos === top1 || scrollPos === top2 || scrollPos >= top3) {
+        if (scrollPos === top0 || scrollPos === top1 || scrollPos === top2 || scrollPos >= top3) {
             $('#menu').css('color', '#555');
         } else {
             $('#menu').css('color', '#f1f1f1');
