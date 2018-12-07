@@ -39,7 +39,7 @@ section {
 @font-face {
   font-family: Plantin Light;
   src: url(../../vendors/fonts/Plantin-Light.otf);
-  src: url(../../vendors/fonts/Plantin-Light.otf?#iefix)format('embedded-opentype');
+  src: url(../../vendors/fonts/Plantin-Light.otf?#iefix) format('embedded-opentype');
   font-weight: 400;
   font-style: normal;
 }
@@ -615,7 +615,6 @@ h3 {
 
 /*END*/
 
-
 /*CHRISTMAS LIGHTS*/
 #wire {
   z-index: 1;
@@ -625,8 +624,19 @@ h3 {
   padding: 0;
   width: 100%;
   top: -90px;
-  border-bottom: 2px solid #222;
-  height: 100px;
+  overflow: hidden;
+  height: 150px;
+}
+
+#wire:after {
+  height: 2px;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  background: #222;
+  content: '';
+  position: absolute;
+  top: 98px;
 }
 
 #wire li {
