@@ -4,7 +4,7 @@ var SCREEN_WIDTH = window.innerWidth,
   windowHalfY = window.innerHeight / 2;
 const mq = window.matchMedia('(min-width: 1280px)');
 
-var shape = (function() {
+var shape = (function () {
   var scene = new THREE.Scene();
   var camera = new THREE.PerspectiveCamera(
     75,
@@ -37,9 +37,9 @@ var shape = (function() {
   if (
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
       navigator.userAgent
-    )
+    ) || SCREEN_WIDTH < 768
   ) {
-    var geometry = new THREE.DodecahedronGeometry(1, 0);
+    var geometry = new THREE.DodecahedronGeometry(1.0, 0);
   } else {
     var geometry = new THREE.DodecahedronGeometry(1.5, 0);
   }
@@ -73,7 +73,7 @@ var shape = (function() {
   }
   camera.position.z = 5;
 
-  var animate = function() {
+  var animate = function () {
     requestAnimationFrame(animate);
 
     cube.rotation.x += 0.006;
